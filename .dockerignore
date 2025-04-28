@@ -1,0 +1,68 @@
+#Ignore Python cache and compiled files
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# Ignore virtual environment
+venv/
+.env
+*.env
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore database files
+database/*.db
+database/*.sqlite
+database/migrations/
+
+# Ignore notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Hide notebooks
+notebooks/
+
+# Ignore data files
+data/papers/
+data/summaries/
+data/figures/
+data/raw/
+data/raw/internal/
+*.csv
+*.json
+*.xlsx
+
+# Ignore secrets and API keys
+config.yaml
+secrets.json
+*.pem
+*.key
+
+# Ignore system files
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# Hide hidden docs file
+docs/hidden/
+
+# Ignore runs directory
+runs/
+*.local
+*.local.ipynb
+*.local.ipynb.ipynb_checkpoints
+*.local.ipynb.ipynb_checkpoints.ipynb_checkpoints
+*.local.ipynb.ipynb_checkpoints.ipynb_checkpoints.ipynb_checkpoints
+*.local.ipynb.ipynb_checkpoints.ipynb_checkpoints.ipynb_checkpoints.ipynb_checkpoints
+*.local.ipynb.ipynb_checkpoints.ipynb_checkpoints.ipynb_checkpoints.ipynb_checkpoints.ipynb_checkpoints
+
+self_consistency.egg-info/
+
+# Ignore test files
+test_runner.py
+tests/
