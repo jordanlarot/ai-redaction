@@ -92,3 +92,49 @@ The API will be available at `http://localhost:8000/`.
 - Press `Try it out`
 - Send requests 
 - Or run `python scripts/send_redact_request.py` 
+
+---
+
+## ⚠️ Disclaimer
+
+This project is provided for research, educational, and experimental purposes only. While efforts have been made to design the redaction system responsibly, no guarantees are provided regarding the completeness, accuracy, or security of the redactions performed. Users are responsible for independently verifying the suitability of this system for their specific use cases, especially in applications involving sensitive personal information, privacy compliance, or regulatory obligations.
+
+The author(s) assume no liability for any damages, losses, or legal consequences arising from the use or misuse of this project.
+
+---
+
+## 📚 Citation
+
+If you use this work in your research or publications, please cite it appropriately.  
+You can reference it as:
+
+> Redacting Sensitive Information with Large Language Models:
+A Practical System Design and Evaluation, Jordan Larot, April 2025. GitHub Repository: github.com/jordanlarot/ai-redaction
+
+(Or adapt it according to your specific citation format.)
+
+Thank you for your support!
+
+## 📜 License
+
+The source code for this project is released under the MIT License.  
+
+This project makes use of the following external components:
+
+- **Gemma 3 model** provided through [Ollama](https://ollama.com/library/gemma3). Usage of the model is subject to its own license terms, available [here](https://ollama.com/library/gemma3/blobs/dd084c7d92a3).
+- **Docker** is required to build and run the application containers. Docker is a third-party platform licensed under the Apache 2.0 License. You are responsible for complying with Docker’s terms of use. More information can be found at [Docker Licensing](https://www.docker.com/legal/docker-terms-service/).
+
+Please review the linked licenses for any third-party components.  
+
+This project does not bundle Docker or Docker Engine itself — it assumes Docker is separately installed on your system.
+
+---
+
+## 📬 Contact
+
+If you have any questions, feedback, or inquiries regarding this project, please feel free to reach out:
+
+- **Name:** Jordan Larot
+- **Email:** jordan@larot.ai
+
+I’m happy to discuss the project, potential collaborations, or related research ideas.
