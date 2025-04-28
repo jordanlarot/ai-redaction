@@ -1,4 +1,4 @@
-# AI Redaction
+# Redacting Sensitive Information with LLMs
 
 ![Workflow diagram of the LLM-powered redaction system.](Workflow_Diagram.png)
 
