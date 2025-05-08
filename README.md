@@ -99,6 +99,8 @@ The API will be available at `http://localhost:8000/`.
 
 This project is provided for research, educational, and experimental purposes only. While efforts have been made to design the redaction system responsibly, no guarantees are provided regarding the completeness, accuracy, or security of the redactions performed. Users are responsible for independently verifying the suitability of this system for their specific use cases, especially in applications involving sensitive personal information, privacy compliance, or regulatory obligations.
 
+This redaction framework was developed independently and is not affiliated with or owned by any organization. It was built using open-source tools, public datasets, and personal compute resources. No proprietary data or infrastructure was used in its development. Organization-specific adaptations may exist as private integrations but do not affect ownership of the core system.
+
 The author(s) assume no liability for any damages, losses, or legal consequences arising from the use or misuse of this project.
 
 ---
